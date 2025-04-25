@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsterart&display=swap');
+
 /* You can add global styles to this file, and also import other style files */
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+select {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin: 16px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  
+  &:hover {
+    border-color: #999;
+  }
+  
+  &:focus {
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+  }
 }

@@ -3,39 +3,15 @@
   <option *ngFor="let category of uniqueCategories" [value]="">{{category}}</option>
 </select>
 
-
 <div style="width: 100%; max-height: 700px;">
-  
- 
-  <div  >
-    
-    <div class="ProductList">
-      <table style="border-collapse: separate; width: 100%;">
-        <thead>
-          <tr>
-            <th >SL.NO</th>
-
-            <th >Name</th>
-            <th >Description</th>
-            <th>Price</th>
-            <th>Stock</th>
-          </tr>
-        </thead>
-        <tbody style="display: block; max-height: 500px; overflow-y: auto;">
-          <ng-container *ngFor="let product of ProductList">
-            <tr *ngIf="product.category == selectedCategory || selectedCategory == ''">
-              <td>{{product.id}}</td>
-              <td>{{product.name}}</td>
-              <td>{{product.description}}</td>
-              <td>{{product.price}}</td>
-              <td>{{product.stock}}</td>
-            </tr>
-          </ng-container>
-        </tbody>
-      </table>
-    </div>
+  <div class="ProductList">
+    <ng-container *ngFor="let product of ProductList">
+      <div class="product-item" *ngIf="product.category == selectedCategory || selectedCategory == ''">
+      <!-- <div class="product-id">SL.NO: {{product.id}}</div> -->
+      <div class="product-name"> {{product.name}}</div>
+      <div class="product-description"> {{product.description}}</div>
+      <div class="product-price">Price: {{product.price}}</div>
+      </div>
+    </ng-container>
   </div>
-
-
-
 </div>
