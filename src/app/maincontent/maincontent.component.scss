@@ -6,14 +6,18 @@
   height: 700px;
 }
 
-/* Add modern styling for the table */
+/* Add glamour gradient and colors to the table */
 .ProductList table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
   font-size: 18px;
   text-align: left;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 50%, #fbc2eb 100%);
+  color: #333;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .ProductList th, .ProductList td {
@@ -22,12 +26,18 @@
 }
 
 .ProductList th {
-  background-color: #f4f4f4;
-  color: #333;
+  background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+  color: white;
   font-weight: bold;
   position: sticky;
   top: 0;
   z-index: 1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ProductList td {
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
 }
 
 .ProductList tr {
@@ -38,8 +48,17 @@
   background-color: #f9f9f9;
 }
 
+.ProductList tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.6);
+}
+
 .ProductList tr:hover {
   background-color: #f1f1f1;
+}
+
+.ProductList tr:hover td {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
 }
 
 .ProductList tbody {

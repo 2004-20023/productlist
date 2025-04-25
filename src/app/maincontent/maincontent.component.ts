@@ -8,10 +8,6 @@ import { NgFor, NgIf } from '@angular/common';
   styleUrl: './maincontent.component.scss'
 })
 export class MaincontentComponent implements OnInit {
-product: any;
-getFilteredProductCount() {
-throw new Error('Method not implemented.');
-}
   ProductList: any = ProductList
   uniqueCategories: any = []
   selectedCategory: string = '';
