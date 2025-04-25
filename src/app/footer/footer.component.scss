@@ -1,0 +1,16 @@
+.Footer {
+  display: flex;
+  background-color: black;
+  height: 36px;
+}
+
+.Copyright {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  color: white;
+}

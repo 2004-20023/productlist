@@ -1,0 +1,21 @@
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  flex: 1;
+  /* Takes remaining height */
+  overflow: hidden;
+  height: 100%;
+  display: inline-block;
+}
+
+.header {
+  height: 68px;
+}
+
+.footer {
+  height: 38px;
+}

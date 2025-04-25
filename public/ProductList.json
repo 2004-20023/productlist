@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI",
+    "price": 25.99,
+    "category": "Electronics",
+    "stock": 120,
+    "image_url": "https://example.com/images/wireless-mouse.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "description": "Over-ear Bluetooth headphones with noise cancellation",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 75,
+    "image_url": "https://example.com/images/bluetooth-headphones.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated bottle, keeps drinks cold for 24 hours",
+    "price": 19.95,
+    "category": "Home & Kitchen",
+    "stock": 200,
+    "image_url": "https://example.com/images/water-bottle.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Yoga Mat",
+    "description": "Non-slip, eco-friendly yoga mat with carrying strap",
+    "price": 34.50,
+    "category": "Fitness",
+    "stock": 90,
+    "image_url": "https://example.com/images/yoga-mat.jpg"
+  },
+  {
+    "id": 5,
+    "name": "LED Desk Lamp",
+    "description": "Adjustable brightness with touch controls",
+    "price": 29.99,
+    "category": "Office Supplies",
+    "stock": 60,
+    "image_url": "https://example.com/images/led-desk-lamp.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Keyboard",
+    "description": "Mechanical keyboard with RGB backlighting",
+    "price": 59.99,
+    "category": "Electronics",
+    "stock": 110,
+    "image_url": "https://example.com/images/gaming-keyboard.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Coffee Mug",
+    "description": "15oz mug with minimalist design",
+    "price": 12.99,
+    "category": "Home & Kitchen",
+    "stock": 150,
+    "image_url": "https://example.com/images/coffee-mug.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Laptop Stand",
+    "description": "Aluminum stand for better ergonomics and cooling",
+    "price": 45.00,
+    "category": "Office Supplies",
+    "stock": 80,
+    "image_url": "https://example.com/images/laptop-stand.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Smart Watch",
+    "description": "Fitness tracking with heart rate monitor",
+    "price": 129.99,
+    "category": "Wearable Tech",
+    "stock": 50,
+    "image_url": "https://example.com/images/smart-watch.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Portable Charger",
+    "description": "10000mAh power bank with fast charging",
+    "price": 22.50,
+    "category": "Electronics",
+    "stock": 140,
+    "image_url": "https://example.com/images/portable-charger.jpg"
+  }
+]
