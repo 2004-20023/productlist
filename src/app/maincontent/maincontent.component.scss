@@ -1,8 +1,55 @@
 .ProductList {
   display: inline-flex;
-  background-color: aquamarine;
   padding: 15px;
   margin: 15px;
-  width: 300px;
-  height: 100px;
+  width: 80%;
+  height: 700px;
+}
+
+/* Add modern styling for the table */
+.ProductList table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.ProductList th, .ProductList td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+.ProductList th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.ProductList tr {
+  transition: background-color 0.3s;
+}
+
+.ProductList tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.ProductList tr:hover {
+  background-color: #f1f1f1;
+}
+
+.ProductList tbody {
+  display: block;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.ProductList thead, .ProductList tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }

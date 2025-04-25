@@ -88,5 +88,185 @@
     "category": "Electronics",
     "stock": 140,
     "image_url": "https://example.com/images/portable-charger.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Wireless Earbuds",
+    "description": "Compact earbuds with noise isolation",
+    "price": 49.99,
+    "category": "Electronics",
+    "stock": 100,
+    "image_url": "https://example.com/images/wireless-earbuds.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Electric Kettle",
+    "description": "1.7L kettle with auto shut-off",
+    "price": 39.99,
+    "category": "Home & Kitchen",
+    "stock": 85,
+    "image_url": "https://example.com/images/electric-kettle.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Running Shoes",
+    "description": "Lightweight and comfortable running shoes",
+    "price": 59.99,
+    "category": "Fitness",
+    "stock": 70,
+    "image_url": "https://example.com/images/running-shoes.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Desk Organizer",
+    "description": "Multi-compartment organizer for office supplies",
+    "price": 15.99,
+    "category": "Office Supplies",
+    "stock": 95,
+    "image_url": "https://example.com/images/desk-organizer.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Smartphone Tripod",
+    "description": "Adjustable tripod for smartphones and cameras",
+    "price": 24.99,
+    "category": "Electronics",
+    "stock": 130,
+    "image_url": "https://example.com/images/smartphone-tripod.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Digital Kitchen Scale",
+    "description": "Precision scale for cooking and baking",
+    "price": 18.99,
+    "category": "Home & Kitchen",
+    "stock": 120,
+    "image_url": "https://example.com/images/kitchen-scale.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Resistance Bands",
+    "description": "Set of 5 resistance bands for workouts",
+    "price": 14.99,
+    "category": "Fitness",
+    "stock": 200,
+    "image_url": "https://example.com/images/resistance-bands.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Notebook",
+    "description": "Hardcover notebook with 200 pages",
+    "price": 9.99,
+    "category": "Office Supplies",
+    "stock": 300,
+    "image_url": "https://example.com/images/notebook.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass",
+    "price": 39.99,
+    "category": "Electronics",
+    "stock": 90,
+    "image_url": "https://example.com/images/bluetooth-speaker.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Vacuum Insulated Tumbler",
+    "description": "Keeps drinks hot or cold for hours",
+    "price": 17.99,
+    "category": "Home & Kitchen",
+    "stock": 140,
+    "image_url": "https://example.com/images/tumbler.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Foam Roller",
+    "description": "High-density foam roller for muscle recovery",
+    "price": 21.99,
+    "category": "Fitness",
+    "stock": 60,
+    "image_url": "https://example.com/images/foam-roller.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Whiteboard",
+    "description": "Magnetic whiteboard with markers and eraser",
+    "price": 29.99,
+    "category": "Office Supplies",
+    "stock": 50,
+    "image_url": "https://example.com/images/whiteboard.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Action Camera",
+    "description": "Waterproof action camera with 4K recording",
+    "price": 99.99,
+    "category": "Electronics",
+    "stock": 40,
+    "image_url": "https://example.com/images/action-camera.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Cast Iron Skillet",
+    "description": "Pre-seasoned skillet for cooking and baking",
+    "price": 25.99,
+    "category": "Home & Kitchen",
+    "stock": 80,
+    "image_url": "https://example.com/images/cast-iron-skillet.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Jump Rope",
+    "description": "Adjustable jump rope for cardio workouts",
+    "price": 12.99,
+    "category": "Fitness",
+    "stock": 150,
+    "image_url": "https://example.com/images/jump-rope.jpg"
+  },
+  {
+    "id": 26,
+    "name": "File Organizer",
+    "description": "Expandable file organizer with 12 pockets",
+    "price": 19.99,
+    "category": "Office Supplies",
+    "stock": 70,
+    "image_url": "https://example.com/images/file-organizer.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Smart Light Bulb",
+    "description": "Wi-Fi enabled bulb with color-changing options",
+    "price": 14.99,
+    "category": "Electronics",
+    "stock": 200,
+    "image_url": "https://example.com/images/smart-light-bulb.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Knife Set",
+    "description": "Stainless steel knives with wooden block",
+    "price": 49.99,
+    "category": "Home & Kitchen",
+    "stock": 30,
+    "image_url": "https://example.com/images/knife-set.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Pull-Up Bar",
+    "description": "Doorway pull-up bar for upper body workouts",
+    "price": 29.99,
+    "category": "Fitness",
+    "stock": 100,
+    "image_url": "https://example.com/images/pull-up-bar.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Desk Chair",
+    "description": "Ergonomic office chair with lumbar support",
+    "price": 129.99,
+    "category": "Office Supplies",
+    "stock": 20,
+    "image_url": "https://example.com/images/desk-chair.jpg"
   }
 ]

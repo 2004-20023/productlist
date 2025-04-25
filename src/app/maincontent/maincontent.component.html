@@ -1,13 +1,38 @@
-<div>
-  <select (change)="onCategoryChange($event.target)">
-    <option *ngFor="let category of uniqueCategories" [value]="">{{category}}</option>
-  </select>
-  <div style="display: inline-flex;" *ngFor="let product of ProductList">
-    <div *ngIf="product.category == selectedCategory || selectedCategory == ''" class="ProductList">
-      <div>{{product.name}}</div>
-      <div>{{product.description}}</div>
-      <div>{{product.price}}</div>
-      <div>{{product.stock}}</div>
+<select (change)="onCategoryChange($event.target)">
+  <option value="">All Categories</option>
+  <option *ngFor="let category of uniqueCategories" [value]="">{{category}}</option>
+</select>
+
+<div style="width: 100%; max-height: 700px;">
+  
+ 
+  <div  >
+    
+    <div class="ProductList">
+      <table style="border-collapse: separate;border: 1px solid black; width: 100%;">
+        <thead>
+          <tr>
+            <th style="border: 1px solid black;">SL.NO</th>
+
+            <th style="border: 1px solid black;">Name</th>
+            <th style="border: 1px solid black;">Description</th>
+            <th style="border: 1px solid black;">Price</th>
+            <th style="border: 1px solid black;">Stock</th>
+          </tr>
+        </thead>
+        <tbody style="display: block; max-height: 500px; overflow-y: auto;">
+          <ng-container *ngFor="let product of ProductList">
+            <tr *ngIf="product.category == selectedCategory || selectedCategory == ''">
+              <td>{{product.id}}</td>
+              <td>{{product.name}}</td>
+              <td>{{product.description}}</td>
+              <td>{{product.price}}</td>
+              <td>{{product.stock}}</td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
     </div>
   </div>
+
 </div>
