@@ -23,6 +23,8 @@ export class MaincontentComponent implements OnInit {
   maxAvailablePrice: number = 0;
   minPrice: number = 50;
   maxPrice: number = 0;
+  fullscreenImage: string | null = null;
+  selectedProductName: string = '';
 
   // Add method to get total pages
   get totalPages(): number {
@@ -116,5 +118,15 @@ export class MaincontentComponent implements OnInit {
     this.selectedPrice = this.maxAvailablePrice;
     this.maxPrice = this.maxAvailablePrice;
     this.applyFilters();
+  }
+
+  showFullscreen(product: any) {
+    this.fullscreenImage = product.local_image;
+    this.selectedProductName = product.name;
+  }
+
+  closeFullscreen() {
+    this.fullscreenImage = null;
+    this.selectedProductName = '';
   }
 }
