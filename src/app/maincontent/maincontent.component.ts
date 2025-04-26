@@ -47,18 +47,28 @@ export class MaincontentComponent implements OnInit {
   applyFilters() {
     this.filteredProducts = this.ProductList.filter((product: any) => {
       const matchesCategory = !this.selectedCategory || product.category === this.selectedCategory;
-      const matchesSearch = !this.searchQuery ||
-        product.name.toLowerCase().includes(this.searchQuery.toLowerCase());
       const matchesPrice = product.price <= this.maxPrice && product.price >= this.minPrice;
+
+      // Improved search functionality
+      const searchTerms = this.searchQuery.toLowerCase().split(' ').filter(term => term);
+      const matchesSearch = !this.searchQuery || searchTerms.every(term => {
+        return (
+          product.name.toLowerCase().includes(term) ||
+          product.category.toLowerCase().includes(term) ||
+          product.description?.toLowerCase().includes(term) ||
+          String(product.price).includes(term)
+        );
+      });
+
       return matchesCategory && matchesSearch && matchesPrice;
     });
+    this.currentPage = 1; // Reset to first page when filtering
     this.updatePaginatedProducts();
   }
 
   onSearch(event: any) {
-    const query = event.target.value.toLowerCase();
-    this.searchQuery = query;
-    this.showSuggestions = query.length > 0;
+    this.searchQuery = event.target.value;
+    this.showSuggestions = this.searchQuery.length > 0;
     this.applyFilters();
   }
 
