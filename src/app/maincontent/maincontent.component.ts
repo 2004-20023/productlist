@@ -14,7 +14,7 @@ export class MaincontentComponent implements OnInit {
   uniqueCategories: any = [];
   selectedCategory: string = '';
   currentPage: number = 1;
-  itemsPerPage: number = 10;
+  itemsPerPage: number = 8; // Changed to 8 items per page
   paginatedProducts: any[] = [];
   searchQuery: string = '';
   filteredProducts: any[] = [];
@@ -23,6 +23,11 @@ export class MaincontentComponent implements OnInit {
   maxAvailablePrice: number = 0;
   minPrice: number = 50;
   maxPrice: number = 0;
+
+  // Add method to get total pages
+  get totalPages(): number {
+    return Math.ceil(this.filteredProducts.length / this.itemsPerPage);
+  }
 
   ngOnInit(): void {
     this.ProductList = this.ProductList.default;
@@ -42,7 +47,7 @@ export class MaincontentComponent implements OnInit {
   applyFilters() {
     this.filteredProducts = this.ProductList.filter((product: any) => {
       const matchesCategory = !this.selectedCategory || product.category === this.selectedCategory;
-      const matchesSearch = !this.searchQuery || 
+      const matchesSearch = !this.searchQuery ||
         product.name.toLowerCase().includes(this.searchQuery.toLowerCase());
       const matchesPrice = product.price <= this.maxPrice && product.price >= this.minPrice;
       return matchesCategory && matchesSearch && matchesPrice;
@@ -83,8 +88,11 @@ export class MaincontentComponent implements OnInit {
     this.paginatedProducts = this.filteredProducts.slice(startIndex, endIndex);
   }
 
-  changePage(page: number) {
-    this.currentPage = page;
-    this.updatePaginatedProducts();
+  // Update changePage method
+  changePage(page: number): void {
+    if (page >= 1 && page <= this.totalPages) {
+      this.currentPage = page;
+      this.updatePaginatedProducts();
+    }
   }
 }
