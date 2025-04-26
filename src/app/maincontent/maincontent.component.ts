@@ -102,15 +102,9 @@ export class MaincontentComponent implements OnInit {
   }
 
   resetPriceRange(): void {
-    if (this.selectedPrice === this.minPrice) {
-      // If we're at minimum, reset to maximum
-      this.selectedPrice = this.maxAvailablePrice;
-      this.maxPrice = this.maxAvailablePrice;
-    } else {
-      // Otherwise reset to minimum
-      this.selectedPrice = this.minPrice;
-      this.maxPrice = this.minPrice;
-    }
+    // Reset to initial values
+    this.selectedPrice = this.maxAvailablePrice;
+    this.maxPrice = this.maxAvailablePrice;
     this.applyFilters();
   }
 }
