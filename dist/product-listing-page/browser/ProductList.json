@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI",
+    "price": 2157,
+    "category": "Electronics",
+    "stock": 120,
+    "image_url": "https://example.com/images/wireless-mouse.jpg",
+    "local_image": "assets/rezwan-ahmed-CXznHE1pKxE-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "description": "Over-ear Bluetooth headphones with noise cancellation",
+    "price": 6639,
+    "category": "Electronics",
+    "stock": 75,
+    "image_url": "https://example.com/images/bluetooth-headphones.jpg",
+    "local_image": "assets/sam-grozyan-uNC9-RgzjTA-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated bottle, keeps drinks cold for 24 hours",
+    "price": 1656,
+    "category": "Home & Kitchen",
+    "stock": 200,
+    "image_url": "https://example.com/images/water-bottle.jpg",
+    "local_image": "assets/joan-tran-reEySFadyJQ-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Yoga Mat",
+    "description": "Non-slip, eco-friendly yoga mat with carrying strap",
+    "price": 2864,
+    "category": "Fitness",
+    "stock": 90,
+    "image_url": "https://example.com/images/yoga-mat.jpg",
+    "local_image": "assets/elena-kloppenburg-erUC4fTtCuo-unsplash.jpg"
+  },
+  {
+    "id": 5,
+    "name": "LED Desk Lamp",
+    "description": "Adjustable brightness with touch controls",
+    "price": 2489,
+    "category": "Office Supplies",
+    "stock": 60,
+    "image_url": "https://example.com/images/led-desk-lamp.jpg",
+    "local_image": "assets/avinash-kumar-iaNGJ0LsQgQ-unsplash.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Gaming Keyboard",
+    "description": "Mechanical keyboard with RGB backlighting",
+    "price": 4979,
+    "category": "Electronics",
+    "stock": 110,
+    "image_url": "https://example.com/images/gaming-keyboard.jpg",
+    "local_image": "assets/kadyn-pierce-7UjAZ1LVu2o-unsplash.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Ceramic Coffee Mug",
+    "description": "15oz mug with minimalist design",
+    "price": 1079,
+    "category": "Home & Kitchen",
+    "stock": 150,
+    "image_url": "https://example.com/images/coffee-mug.jpg",
+    "local_image": "assets/john-vid-pDTEZJqyHf8-unsplash.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Laptop Stand",
+    "description": "Aluminum stand for better ergonomics and cooling",
+    "price": 3735,
+    "category": "Office Supplies",
+    "stock": 80,
+    "image_url": "https://example.com/images/laptop-stand.jpg",
+    "local_image": "assets/michael-soledad-lWlJLgJoq68-unsplash.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Smart Watch",
+    "description": "Fitness tracking with heart rate monitor",
+    "price": 10799,
+    "category": "Wearable Tech",
+    "stock": 50,
+    "image_url": "https://example.com/images/smart-watch.jpg",
+    "local_image": "assets/simon-daoudi-2wFoa040m8g-unsplash.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Portable Charger",
+    "description": "10000mAh power bank with fast charging",
+    "price": 1867,
+    "category": "Electronics",
+    "stock": 140,
+    "image_url": "https://example.com/images/portable-charger.jpg",
+    "local_image": "assets/chris-lynch-LeVpS-RYGm8-unsplash.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Wireless Earbuds",
+    "description": "Compact earbuds with noise isolation",
+    "price": 4149,
+    "category": "Electronics",
+    "stock": 100,
+    "image_url": "https://example.com/images/wireless-earbuds.jpg",
+    "local_image": "assets/daniel-romero-AgLMrojqjAM-unsplash.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Electric Kettle",
+    "description": "1.7L kettle with auto shut-off",
+    "price": 3319,
+    "category": "Home & Kitchen",
+    "stock": 85,
+    "image_url": "https://example.com/images/electric-kettle.jpg",
+    "local_image": "assets/engin-akyurt-pVD5AIpHNhU-unsplash.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Running Shoes",
+    "description": "Lightweight and comfortable running shoes",
+    "price": 4979,
+    "category": "Fitness",
+    "stock": 70,
+    "image_url": "https://example.com/images/running-shoes.jpg",
+    "local_image": "assets/domino-studio-164_6wVEHfI-unsplash.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Desk Organizer",
+    "description": "Multi-compartment organizer for office supplies",
+    "price": 1329,
+    "category": "Office Supplies",
+    "stock": 95,
+    "image_url": "https://example.com/images/desk-organizer.jpg",
+    "local_image": "assets/michael-soledad-lWlJLgJoq68-unsplash.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Smartphone Tripod",
+    "description": "Adjustable tripod for smartphones and cameras",
+    "price": 2079,
+    "category": "Electronics",
+    "stock": 130,
+    "image_url": "https://example.com/images/smartphone-tripod.jpg",
+    "local_image": "assets/shakib-uzzaman-mQijJHVPuIE-unsplash.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Digital Kitchen Scale",
+    "description": "Precision scale for cooking and baking",
+    "price": 1583,
+    "category": "Home & Kitchen",
+    "stock": 120,
+    "image_url": "https://example.com/images/kitchen-scale.jpg",
+    "local_image": "assets/sigmund-wZkwwYajgOw-unsplash.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Resistance Bands",
+    "description": "Set of 5 resistance bands for workouts",
+    "price": 1249,
+    "category": "Fitness",
+    "stock": 200,
+    "image_url": "https://example.com/images/resistance-bands.jpg",
+    "local_image": "assets/simon-daoudi-2wFoa040m8g-unsplash.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Notebook",
+    "description": "Hardcover notebook with 200 pages",
+    "price": 832,
+    "category": "Office Supplies",
+    "stock": 300,
+    "image_url": "https://example.com/images/notebook.jpg",
+    "local_image": "assets/kelly-sikkema-2q_frVRXWfQ-unsplash.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass",
+    "price": 3319,
+    "category": "Electronics",
+    "stock": 90,
+    "image_url": "https://example.com/images/bluetooth-speaker.jpg",
+    "local_image": "assets/habib-dadkhah-zxvnrxl5OXc-unsplash.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Vacuum Insulated Tumbler",
+    "description": "Keeps drinks hot or cold for hours",
+    "price": 1495,
+    "category": "Home & Kitchen",
+    "stock": 140,
+    "image_url": "https://example.com/images/tumbler.jpg",
+    "local_image": "assets/john-vid-pDTEZJqyHf8-unsplash.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Foam Roller",
+    "description": "High-density foam roller for muscle recovery",
+    "price": 1827,
+    "category": "Fitness",
+    "stock": 60,
+    "image_url": "https://example.com/images/foam-roller.jpg",
+    "local_image": "assets/andrew-valdivia-zlY2woZT_RA-unsplash.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Whiteboard",
+    "description": "Magnetic whiteboard with markers and eraser",
+    "price": 2489,
+    "category": "Office Supplies",
+    "stock": 50,
+    "image_url": "https://example.com/images/whiteboard.jpg",
+    "local_image": "assets/paul-hanaoka-eWw2BKvKX_0-unsplash.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Action Camera",
+    "description": "Waterproof action camera with 4K recording",
+    "price": 8319,
+    "category": "Electronics",
+    "stock": 40,
+    "image_url": "https://example.com/images/action-camera.jpg",
+    "local_image": "assets/sanju-pandita-rVFBaBGxufA-unsplash.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Cast Iron Skillet",
+    "description": "Pre-seasoned skillet for cooking and baking",
+    "price": 2157,
+    "category": "Home & Kitchen",
+    "stock": 80,
+    "image_url": "https://example.com/images/cast-iron-skillet.jpg",
+    "local_image": "assets/eiliv-aceron-PzVicEU9bUQ-unsplash.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Jump Rope",
+    "description": "Adjustable jump rope for cardio workouts",
+    "price": 1079,
+    "category": "Fitness",
+    "stock": 150,
+    "image_url": "https://example.com/images/jump-rope.jpg",
+    "local_image": "assets/kelly-sikkema-IZOAOjvwhaM-unsplash.jpg"
+  },
+  {
+    "id": 26,
+    "name": "File Organizer",
+    "description": "Expandable file organizer with 12 pockets",
+    "price": 1656,
+    "category": "Office Supplies",
+    "stock": 70,
+    "image_url": "https://example.com/images/file-organizer.jpg",
+    "local_image": "assets/thomas-kinto-t2w1n1jdUlY-unsplash.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Smart Light Bulb",
+    "description": "Wi-Fi enabled bulb with color-changing options",
+    "price": 1249,
+    "category": "Electronics",
+    "stock": 200,
+    "image_url": "https://example.com/images/smart-light-bulb.jpg",
+    "local_image": "assets/frank-weichelt-3_zmkpfkWOQ-unsplash.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Knife Set",
+    "description": "Stainless steel knives with wooden block",
+    "price": 4149,
+    "category": "Home & Kitchen",
+    "stock": 30,
+    "image_url": "https://example.com/images/knife-set.jpg",
+    "local_image": "assets/cooker-king-ez_4zOudMoA-unsplash.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Pull-Up Bar",
+    "description": "Doorway pull-up bar for upper body workouts",
+    "price": 2489,
+    "category": "Fitness",
+    "stock": 100,
+    "image_url": "https://example.com/images/pull-up-bar.jpg",
+    "local_image": "assets/gmb-fitness-CzuF_K7GdPM-unsplash.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Desk Chair",
+    "description": "Ergonomic office chair with lumbar support",
+    "price": 10799,
+    "category": "Office Supplies",
+    "stock": 20,
+    "image_url": "https://example.com/images/desk-chair.jpg",
+    "local_image": "assets/effydesk-8hQu_VuLY08-unsplash.jpg"
+  }
+]
